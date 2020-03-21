@@ -1,6 +1,6 @@
 # Configure Ruby server using Ubuntu 18.04
 
-1. [Initial Server Setup](https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-18-04) (or use [this script](https://www.digitalocean.com/community/tutorials/automating-initial-server-setup-with-ubuntu-18-04))
+1. [Initial Server Setup](https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-18-04) with user `brownie` (or use [this script](https://www.digitalocean.com/community/tutorials/automating-initial-server-setup-with-ubuntu-18-04))
 
 2. [Intall NodeJS with Yarn](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-node-js-application-for-production-on-ubuntu-18-04) **(until the 3rd step)**
 
@@ -26,7 +26,7 @@
                 listen [::]:80;
 
                 server_name project-name.com www.project-name.com;
-                root /home/brownie/var/project-name/current/public;
+                root /home/brownie/www/project-name/current/public;
 
                 passenger_enabled on;
         }
