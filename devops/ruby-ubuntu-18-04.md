@@ -24,7 +24,7 @@
                 listen [::]:80;
 
                 server_name project-name.com www.project-name.com;
-                root /var/www/project-name/current/public;
+                root /home/brownie/var/project-name/current/public;
 
                 passenger_enabled on;
         }
