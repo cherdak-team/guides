@@ -12,7 +12,9 @@
 
 6. [Install PostgreSQL](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-18-04)
 
-7. Create site config
+7. Deploy a project using [Capistrano](https://github.com/capistrano/capistrano)
+
+8. Create site config
 
     - Create config file
 
@@ -44,6 +46,4 @@
         sudo systemctl restart nginx
         ```
 
-8. [Install SSL certificate](https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-18-04) _(Redirect HTTP traffic to HTTPS)_
-
-9. Deploy application using Capistrano
+9. [Install SSL certificate](https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-18-04) _(Redirect HTTP traffic to HTTPS)_
