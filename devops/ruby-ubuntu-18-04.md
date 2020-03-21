@@ -16,7 +16,7 @@
 
 8. Create site config
 
-    - Create config file
+    1. Create config file
 
         ```
         sudo nano /etc/nginx/sites-available/project-name.conf
@@ -34,13 +34,13 @@
         }
         ```
 
-    - Enable site config
+    2. Enable site config
 
         ```
         sudo ln -s /etc/nginx/sites-available/project-name.conf /etc/nginx/sites-enabled/
         ```
 
-    - Restart Nginx
+    3. Restart Nginx
 
         ```
         sudo systemctl restart nginx
