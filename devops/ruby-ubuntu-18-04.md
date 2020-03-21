@@ -44,4 +44,6 @@
 
 7. [Install SSL certificate](https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-18-04) _(Redirect HTTP traffic to HTTPS)_
 
-8. Deploy application using Capistrano
+8. [Install PostgreSQL](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-18-04)
+
+9. Deploy application using Capistrano
