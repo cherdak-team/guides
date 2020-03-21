@@ -10,7 +10,9 @@
 
 5. [Install Passenger](https://www.phusionpassenger.com/library/install/nginx/install/oss/bionic/)
 
-6. Create site config
+6. [Install PostgreSQL](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-18-04)
+
+7. Create site config
 
     - Create config file
 
@@ -42,8 +44,6 @@
         sudo systemctl restart nginx
         ```
 
-7. [Install SSL certificate](https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-18-04) _(Redirect HTTP traffic to HTTPS)_
-
-8. [Install PostgreSQL](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-18-04)
+8. [Install SSL certificate](https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-18-04) _(Redirect HTTP traffic to HTTPS)_
 
 9. Deploy application using Capistrano
